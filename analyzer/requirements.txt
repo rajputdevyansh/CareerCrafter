@@ -2,13 +2,12 @@ pandas
 pyresparser
 pafy
 pdfminer3
-
 streamlit
-
+streamlit-tags
 
 plotly
 pymysql
-streamlit-tags
+
 Pillow
 youtube-dl
 nltk
