@@ -1,11 +1,11 @@
 pandas
 pyresparser
-
+pafy
 pdfminer3
 
 streamlit
 
-pafy
+
 plotly
 pymysql
 streamlit-tags
