@@ -1,7 +1,8 @@
 pandas
+pyresparser
 
 pdfminer3
-pyresparser
+
 streamlit
 
 pafy
