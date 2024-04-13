@@ -86,7 +86,7 @@ def insert_data(name, email, res_score, timestamp, no_of_pages, reco_field, cand
 
 
 st.set_page_config(
-    page_title="Smart Resume Analyzer",
+    page_title="Resume Analyzer",
     page_icon='./Logo/SRA_Logo.ico',
 )
 
@@ -96,8 +96,8 @@ def run():
     st.sidebar.markdown("# Choose User")
     activities = ["Normal User", "Admin"]
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
-    img = Image.open('./Logo/SRA_Logo.jpg')
-    img = img.resize((250, 250))
+    img = Image.open('./Logo/SRA_Logo.png')
+    img = img.resize((700, 250))
     st.image(img)
 
     # Create the DB
